@@ -1,9 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import OlaMundo from './components/OlaMundo';
-import FixedDimentions from './components/FixedDimentions';
-import NumberCheck from './components/NumberCheck';
-import OddsOrEvens from './components/OddsOrEvens';
+// import OlaMundo from './components/OlaMundo';
+// import FixedDimentions from './components/FixedDimentions';
+// import NumberCheck from './components/NumberCheck';
+// import OddsOrEvens from './components/OddsOrEvens';
+import Event from './components/Event';
 
 //import OlaMundo from './components/clOlaMundo';
 
@@ -13,7 +14,8 @@ export default function App() {
       {/* <OlaMundo name='B&uuml;hler' /> */}
       {/* <FixedDimentions/> */}
       {/* <NumberCheck number='3' /> */}
-      <OddsOrEvens number='3'/>
+      <Event/>
+      {/* <OddsOrEvens number='3'/> */}
     </View>
   );
 }
