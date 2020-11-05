@@ -5,6 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 // import NumberCheck from './components/NumberCheck';
 // import OddsOrEvens from './components/OddsOrEvens';
 import Event from './components/Event';
+import NutriTable from './components/NutriTable';
 
 //import OlaMundo from './components/clOlaMundo';
 
@@ -15,6 +16,7 @@ export default function App() {
       {/* <FixedDimentions/> */}
       {/* <NumberCheck number='3' /> */}
       <Event/>
+      {/* <NutriTable/> */}
       {/* <OddsOrEvens number='3'/> */}
     </View>
   );

@@ -3,21 +3,31 @@ import {View, Text, TextInput, StyleSheet} from 'react-native';
 
 class Event extends React.Component{
 
-    state={
+    constructor(propos){
+        super(propos);
 
-        input:''
+        this.state={
+            input:''
+        }
+
+        this.alteraInput=this.alteraInput.bind(this);
+
+    }
+
+    alteraInput(input){
+        this.setState({input});
     }
 
     render(){
         return(
-            <View>
+            <View style={styles.container}>
 
                 <Text style={styles.font30}>{this.state.input}</Text>
                 <TextInput 
                     style={styles.input} 
                     value={this.state.input}
-                    onChangeText={(input)=>this.setState({input})}></TextInput>
-
+                    onChangeText={this.alteraInput}>
+                </TextInput>
             </View>
         )
     }
