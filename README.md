@@ -8,3 +8,5 @@ React Native playgroud
 - npm run android
 - npm run ios # requires an iOS device or macOS for access to an iOS simulator
 - npm run web
+
+(react-native 14/11/2020)
